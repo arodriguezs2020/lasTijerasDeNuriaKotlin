@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenido"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"/>
+
+        <androidx.constraintlayout.motion.widget.MotionLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarFadeDuration="@integer/material_motion_duration_short_1"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            tools:context=".ui.home.HomeFragment"
+            app:layoutDescription="@xml/fragment_home_scene">
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:src="@drawable/imagen0"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imagen_1" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:src="@drawable/imagen1"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imagen_2"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imagen_3"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/imagen2" />
+
+        <androidx.constraintlayout.helper.widget.Carousel
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:carousel_forwardTransition="@+id/forward"
+            app:carousel_backwardTransition="@+id/backward"
+            app:carousel_previousState="@+id/previous"
+            app:carousel_nextState="@+id/next"
+            app:carousel_infinite="true"
+            app:carousel_emptyViewsBehavior="gone"
+            app:carousel_firstView="@+id/imageView2"
+            app:constraint_referenced_ids="imageView0,imageView1,imageView2" />
+
+        </androidx.constraintlayout.motion.widget.MotionLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/servicios"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/en_esta_peluquer_a_ofrecemos_todo_tipo_de_servicios_tanto_cortes_a_hombre_como_a_mujer"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/servicio"
+            android:contentDescription="@string/servicios_imagen"/>
+
+        <Button
+            android:id="@+id/btn_servicios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/servicios"
+            android:backgroundTint="@color/morado"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reservas"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/puede_hacer_su_reserva_en_nuestra_peluquer_a_a_trav_s_del_siguiente_bot_n"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/reserva"
+            android:contentDescription="@string/reservas_imagen"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_reservas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/reservas"
+            android:backgroundTint="@color/orange"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

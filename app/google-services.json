@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "516485571791",
+    "project_id": "lastijerasdenuria",
+    "storage_bucket": "lastijerasdenuria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516485571791:android:1dc734f7aefcf05aa503ba",
+        "android_client_info": {
+          "package_name": "es.alvarorodriguez.lastijerasdenuria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516485571791-ludpss56550i9rncanvqh8spq0o0jmso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuztsVu6pwRI5FQLn2eBHMBirnlBlMcQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516485571791-ludpss56550i9rncanvqh8spq0o0jmso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">lasTijerasDeNuria</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="perfil">Perfil</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="phone_number">Phone number</string>
+    <string name="add">Add</string>
+    <string name="precio">Precio</string>
+    <string name="servicio">Servicio</string>
+    <string name="add_service">Add Service</string>
+    <string name="reserva" translatable="false">Reserva</string>
+    <string name="seleccione_un_servicio">Seleccione un servicio</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="not_have_an_account_sign_up">Not have an account? Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="clear_sharedPreferences">Clear SharedPreferences</string>
+    <string name="save_credentials">Save Credentials</string>
+    <string name="username">Username</string>
+    <string name="create_profile">Create profile</string>
+    <string name="haciendo_click_para_a_adir_foto_de_perfil">Haciendo click para añadir foto de perfil</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="nombre">Nombre</string>
+    <string name="imagen_1">Imagen 1</string>
+    <string name="imagen_2">Imagen 2</string>
+    <string name="imagen_3">Imagen 3</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="servicios">Servicios</string>
+    <string name="reservas">Reservas</string>
+    <string name="servicios_imagen">Servicios imagen</string>
+    <string name="puede_hacer_su_reserva_en_nuestra_peluquer_a_a_trav_s_del_siguiente_bot_n">Puede hacer su reserva en nuestra peluquería a través del siguiente botón.</string>
+    <string name="en_esta_peluquer_a_ofrecemos_todo_tipo_de_servicios_tanto_cortes_a_hombre_como_a_mujer">En esta peluquería ofrecemos todo tipo de servicios, tanto cortes a hombre como a mujer.</string>
+    <string name="reservas_imagen">Reservas imagen</string>
+</resources>
